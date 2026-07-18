@@ -3,7 +3,7 @@
 
 
 ## Descripción del proyecto
-
+Proyecto de práctica de análisis de precios, construido con excel y Power BI. Aplicando conceptos de economía (elasticidad precio-demanda, margen de contribución). A un dataset simulado con 15 productos de una tienda conveniencia en una gasolinera.
 
 ## Objetivo
 [Qué pregunta de negocio buscabas responder]
