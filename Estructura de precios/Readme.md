@@ -1,12 +1,15 @@
 # Análisis de Precios y Rentabilidad — Simulación Tienda de Conveniencia
 
+Proyecto de práctica de análisis de precios, construido con excel y Power BI. Aplicando conceptos de economía (elasticidad precio-demanda, margen de contribución). A un dataset simulado con productos de una tienda conveniencia en una gasolinera.
 
 
 ## Descripción del proyecto
-Proyecto de práctica de análisis de precios, construido con excel y Power BI. Aplicando conceptos de economía (elasticidad precio-demanda, margen de contribución). A un dataset simulado con 15 productos de una tienda conveniencia en una gasolinera.
+
+Este proyecto simula las estryuctura de precios y rentabilidad de 15 productos (bebidas, snacks, tabaco, comida rápida, automotriz y combustible). Segmentadas en 8 categorías de producto. El objetivo fue construir de principio a fin, un flujo de análisis de precios: cálculo de márgenes, utilidades, elasticidades, clasificación de productos, simulación de escenarios ante cambio en los precios, fenómeno normal enn los mercados. Y también construir una visualización de resultados en un dashboard intercativo.
+
 
 ## Objetivo
-[Qué pregunta de negocio buscabas responder]
+
 
 ## Metodología
 [Qué datos usaste (simulados), qué herramientas (Excel + Power BI), qué supuestos]
