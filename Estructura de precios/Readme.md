@@ -39,15 +39,44 @@ Mide qué tan sensible es la cantidad demandada de un bien o servicio entorno al
 
 
 
-
 ## Hallazgos principales
+
+#### 1. Margen alto no garantiza utilidad alta
+Café pequeño tiene margen alto pero utilidad baja (poca influencia en la utilidad total). Combustible tiene margen bajo pero genera bastante utilidad (alta incidencia en la utilidad total).
+
+#### 2. El combustible cumple un rol estratégico, no solo financiero
+Actúa como producto de atracción de tráfico de clientes hacia la tienda.
+
+#### 3. Un aumento de precio, genera un incremento de utilidad, incluso perdiendo volumen de unidades totales vendidas en toda la tienda.
+Al simular un incremento del 10% del precio en todo el portafolio de la tienda. Al simular el incremento de precios, la utilidad total neta subió de aprox L129,340 a L199,640, incrementándose en L70,300. A pesar de una pérdida estimada de 723 unidades del total de productos en venta. Esto ocurre porque el margen porque el precio incrementa el margen por unidad en todos los productos, y en productos inelásticos como combustible, casi no se pierden unidades, en relación a otros productos.
+
+### 4. Matiz estratégico de la matemática: 
+Aunque el modelo sugiere que subir precios en productos inelásticos genera mayor utilidad. El combustible, al ser un bien necesario o escencial en sociedades tradicionales, es un bien o producto muy comparado entre los compradores ya que existe alta competencia en su distribución. Subir su precio de manera agresiva podría reducir el volumen de ventas si los demás oferentes no suben el precio, cediendo mayor cuotas a las otras empresas del mercado. afectando también las ventas de la tienda conveniencia. Riesgo que la elasticidad asumida no captura completamente.
+
 
 
 ## Herramientas y técnicas aplicadas
-[Excel: BUSCARX, SUMAR.SI... | Power BI: DAX, SUMX... | Conceptos económicos: elasticidad, margen ponderado...]
+#### Excel
+Margen, markup, utilidad neta, margen de contribución, puntoos de equilibrio calculados por producto.
+BUSCARX/INDICE + COINCIDIR: Identificación de productos con mayor/menor marge/utilidad.
+SUMAR.SI: Utilidad total por categoría.
+SI anidado: Clasificación automática de productos por nivel de margen (ALTO, MEDIO, BAJO).
+Formato Condicional: Visualización tipo de semáforo por nivel de clasificación de margen.
+
+#### POWER BI:
+Importación y limpieza de datos, revisión del tipo de dato.
+Medidas DAX: SUM, SUMX.
+Margen ponderado por ingreso (no promedio simple) para reflejar rentabilidad real del negocio.
+Elasticidad ponderada por volumen de ventas.
+Simulación de utilidad total bajo escenario de incremento de precios, recalculando margen y volumen de ventas.
+Dashboard con tarjetas KPI's, gráfico de dispersión (margen vs utilidad por producto) y gráfico de barras (utilidad y elasticidad por categoría).
+
 
 ## Limitaciones
-[Datos simulados, elasticidad asumida por categoría no por producto, etc.]
+Los datos son simulados, no provienen de una operación real.
+Las elasticidades son supuestos razonados en base a teoría económica (productos sustitutos, necesidad, frecuencia de compra). No son estimaciones estadísticas provenientes de datos históricos de precios y cantidades.
+Se asumió elasticidad uniforme por categoría. El la práctica, es casi probablemente que la elasticidad varíe por producto, según posicionamiento de marca y fidelidad de clientes (nivel de demanda). Una extensión de este análisis sería estimar las elasticidades con datos históricos reales.
+La simulación de aumento de precios, no incorpora reacción de la competencia, ni efectos de imagen de marca, que en la práctica afectan las decisiones de pricing.
 
 ## Capturas del dashboard
-[Imágenes]
+
