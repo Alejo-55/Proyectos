@@ -80,3 +80,4 @@ La simulación de aumento de precios, no incorpora reacción de la competencia, 
 
 ## Capturas del dashboard
 
+
