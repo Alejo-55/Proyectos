@@ -14,7 +14,10 @@ Responder a una pregunta central de negocio: ¿Qué productos son realemente ren
 
 
 ## Metodología
-### Datos
+#### Datos:
+Dataset simulado con 15 productos básicos en una tienda comveniencia, con precio, costo unitario, unidades vendidas y costo fijo asignado (prorroteado por renta, servicios públicos).
+#### Herramientas:
+Excel(Cálculos base, fórmulas, búsqueda, clasificación condicional) y Power BI (Modelado de datos, construcción de medidas DAX, visualizaciones).
 
 ## Conceptos Aplicados
 
