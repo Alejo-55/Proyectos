@@ -12,8 +12,9 @@ Este proyecto simula las estryuctura de precios y rentabilidad de 15 productos (
 
 Responder a una pregunta central de negocio: ¿Qué productos son realemente rentables para una empresa de esta categoría, y cómo respondería la utilidad total ante un cambio en los precios de mercado?
 
+
 ## Metodología
-[Qué datos usaste (simulados), qué herramientas (Excel + Power BI), qué supuestos]
+### Datos
 
 ## Conceptos Aplicados
 
