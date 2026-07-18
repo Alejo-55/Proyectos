@@ -80,7 +80,7 @@ La simulación de aumento de precios, no incorpora reacción de la competencia, 
 
 ## Capturas del dashboard
 
-![Dashboard estructura de precios](Estructura de precios/Estructura de precios.png)
+![Dashboard de análisis de precios](Estructura%20de%20precios/Estructura%20de%20precios.png)
 
 **Autor:** Alejandro Sevilla Mejía — Economista (UNAH)
 [GitHub](https://github.com/Alejo-55) | [LinkedIn](https://www.linkedin.com/in/alejandro-sevilla-a23a6b224/)
