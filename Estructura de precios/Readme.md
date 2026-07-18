@@ -3,7 +3,7 @@
 
 
 ## Descripción del proyecto
-[2-3 líneas: qué hiciste y por qué]
+
 
 ## Objetivo
 [Qué pregunta de negocio buscabas responder]
